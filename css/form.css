@@ -73,6 +73,7 @@
 
 .nice-select{
     background-color: rgb(153, 211, 18);
+    border-radius: 20px;
 }
 
 .nice-select,
@@ -82,13 +83,25 @@
     width: 35%;
 }
 
-.nice-select .option.focus, .nice-select .option.selected.focus {
-    background-color: #7d0d0d;
+.nice-select .option.selected{
+    font-style: italic;
 }
+
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus{
+    background-color: blue;
+}
+
+.nice-select .option.focus{
+    background-color: rgb(18, 173, 18);
+}
+
 
 .nice-select .list{
     background-color: rgb(18, 173, 18);
     position: static;
+    border: 3px solid black;
+    margin-top: 35px;
+    
 }
 
 
